@@ -50,9 +50,8 @@ export default function About() {
                 </div>
             </div>
             <motion.div
-                className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"
+                className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 px-4"
                 whileInView={{ opacity: 1, x: 0 }}
-
                 initial={{ x: 200, opacity: 0 }}
                 transition={{ duration: 0.5 }}
             >

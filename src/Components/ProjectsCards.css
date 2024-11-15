@@ -9,7 +9,7 @@
     height: 100%;
     position: relative;
     transform-style: preserve-3d;
-    transition: transform 1.2s;  /* Control the flip speed */
+    transition: transform 1.8s;  /* Control the flip speed */
   }
   
   .card:hover .card-inner {

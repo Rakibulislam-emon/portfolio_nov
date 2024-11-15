@@ -1,3 +1,4 @@
+
 import project1 from "../assets/projects/gympng.png";
 import organic from "../assets/projects/organic.png";
 import electro from "../assets/projects/electro.png";
@@ -25,16 +26,16 @@ export const projects = [
       image: organic,
       githubLink: "https://github.com/Rakibulislam-emon/Organic_Grocery_Shop_Client",
       liveLink: "https://organicgrocerystores.netlify.app/",
-      technologies: ["React", "Tailwind CSS", "Firebase", "Stripe API"],
-      description: "An online grocery store where users can purchase organic food items with secure checkout via Stripe."
+      technologies: ["React","Tailwind CSS"],
+      description: "An online grocery store where users can purchase organic food items "
   },
   {
       title: "Electro",
       image: electro,
       githubLink: "https://github.com/Rakibulislam-emon/Electro_E-commerce",
       liveLink: "https://electroecommerce.netlify.app/",
-      technologies: ["React", "Redux", "Node.js", "MongoDB", "Express", "Stripe API"],
-      description: "An e-commerce platform for electronics with user-friendly shopping experience and integrated Stripe payments."
+      technologies: ["React", "Node.js", "MongoDB", "Express"],
+      description: "An e-commerce platform for electronics with user-friendly shopping experience."
   },
   {
       title: "Flex-Fitness",
@@ -44,28 +45,31 @@ export const projects = [
       technologies: ["React", "Firebase", "Tailwind CSS", "Stripe API"],
       description: "A fitness website offering gym class bookings, user profiles, and payment system via Stripe."
   },
-  {
-      title: "Blood Donation Website",
-      image: project1,
-      githubLink: "https://github.com/Rakibulislam-emon/Rakibulislam-emon-life-source-blood-bank",
-      liveLink: "https://lifesourcebloodbank-e806f.web.app/",
-      technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-      description: "A platform to connect blood donors and recipients with features to request and donate blood."
-  },
-  {
-      title: "Tourism Website",
-      image: project1,
-      githubLink: "https://github.com/Rakibulislam-emon/tour-guides",
-      liveLink: "https://splendorous-swan-2bcc0b.netlify.app/",
-      technologies: ["HTML", "CSS", "JavaScript", "React"],
-      description: "A travel website showcasing various tourist destinations with detailed information and booking options."
-  },
-  {
-      title: "Food Donation Website",
-      image: project1,
-      githubLink: "https://github.com/Rakibulislam-emon/food-share-hub",
-      liveLink: "https://food-share-hub-3d61b.web.app/",
-      technologies: ["React", "Firebase", "Tailwind CSS"],
-      description: "A food-sharing platform that allows users to donate or request food from local communities."
-  }
+//   {
+//       title: "Blood Donation Website",
+//       image: project1,
+//       githubLink: "https://github.com/Rakibulislam-emon/Rakibulislam-emon-life-source-blood-bank",
+//       liveLink: "https://lifesourcebloodbank-e806f.web.app/",
+//       technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+//       description: "A platform to connect blood donors and recipients with features to request and donate blood."
+//   },
+//   {
+//       title: "Tourism Website",
+//       image: project1,
+//       githubLink: "https://github.com/Rakibulislam-emon/tour-guides",
+//       liveLink: "https://splendorous-swan-2bcc0b.netlify.app/",
+//       technologies: ["HTML", "CSS", "JavaScript", "React"],
+//       description: "A travel website showcasing various tourist destinations with detailed information and booking options."
+//   },
+//   {
+//       title: "Food Donation Website",
+//       image: project1,
+//       githubLink: "https://github.com/Rakibulislam-emon/food-share-hub",
+//       liveLink: "https://food-share-hub-3d61b.web.app/",
+//       technologies: ["React", "Firebase", "Tailwind CSS"],
+//       description: "A food-sharing platform that allows users to donate or request food from local communities."
+//   }
 ];
+
+
+

@@ -68,38 +68,34 @@ const Contacts = () => {
         </h4>
         <br />
         <div className="flex gap-10 md:flex-row flex-col">
-          <form
-            ref={form}
-            onSubmit={sendEmail}
-            className="flex-1 flex flex-col gap-5">
+          <form ref={form} onSubmit={sendEmail} className="flex-1 flex flex-col gap-5">
             <input
               type="text"
-              placeholder="Name"
+              name="from_name" // Matches {{from_name}} in the template
+              placeholder="Your Name"
               required
               className="border text-slate-600 border-slate-600 p-3 rounded"
             />
             <input
               type="email"
-              placeholder="Email Id"
+              name="reply_to" // Matches {{reply_to}} in the template
+              placeholder="Your Email"
               required
               className="border text-slate-600 border-slate-600 p-3 rounded"
             />
             <textarea
-              placeholder="Message"
-              className="border text-slate-600 border-slate-600 p-3 rounded h-44"
+              name="message" // Matches {{message}} in the template
+              placeholder="Your Message"
               required
+              className="border text-slate-600 border-slate-600 p-3 rounded h-44"
             ></textarea>
-            <motion.div
-              type='submit'
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ x: 800, opacity: 0 }}
-              transition={{ duration: 0.5 }}>
-              <button className="  bg-white border text-black py-2 px-4 ">
-                Submit
-              </button>
-            </motion.div>
-
+            <button type="submit" className="bg-white border text-black py-2 px-4">
+              Submit
+            </button>
           </form>
+
+
+
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ x: +300, opacity: 0 }}

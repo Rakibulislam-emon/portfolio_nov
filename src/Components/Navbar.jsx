@@ -1,5 +1,4 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaFacebook } from 'react-icons/fa'
-import logo from '../assets/logo1.png'
 // import EMU from '../assets/Emu.png'
 import re from '../public/RE.png'
 export default function Navbar() {
